@@ -10,11 +10,7 @@ A GPU accelerated sparse linear algebra library.
     * blank
 * spMV and spMM
     * blank
-* CSC
-    * blank
-* COO
-    * blank
-* CM-CSR
+* Reordering
     * blank
 * Jacobi
     * blank
@@ -27,4 +23,10 @@ A GPU accelerated sparse linear algebra library.
 * Multi-grid
     * blank
 * Krylov solvers
+    * blank
+* CSC
+    * blank
+* COO
+    * blank
+* CM-CSR
     * blank
