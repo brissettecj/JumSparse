@@ -7,6 +7,8 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
+include(GoogleTest)
+
 # ── Helper: register a test executable ───────────────────────────────────────
 function(jumsparse_add_test TEST_NAME TEST_SOURCE)
     add_executable(${TEST_NAME} ${TEST_SOURCE})
@@ -36,3 +38,4 @@ jumsparse_add_test(test_krylov       solvers/test_krylov.cu)
 
 # ── Utility tests ────────────────────────────────────────────────────────────
 jumsparse_add_test(test_reordering   utils/test_reordering.cu)
+jumsparse_add_test(test_array        utils/test_array.cpp)

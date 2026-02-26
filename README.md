@@ -7,7 +7,8 @@ A GPU accelerated sparse linear algebra library.
 
 ## Functionality Roadmap
 * CSR Class
-    * blank
+    * Feb 25: Added base ability to init CSR array, lazy set/get is
+    not great for overall object, will do other in future probably.
 * spMV and spMM
     * blank
 * Reordering
